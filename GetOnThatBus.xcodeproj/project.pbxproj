@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFC501601991566000E38EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC5015F1991566000E38EFE /* Foundation.framework */; };
+		DFC501621991566000E38EFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC501611991566000E38EFE /* CoreGraphics.framework */; };
+		DFC501641991566000E38EFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC501631991566000E38EFE /* UIKit.framework */; };
+		DFC5016A1991566000E38EFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFC501681991566000E38EFE /* InfoPlist.strings */; };
+		DFC5016C1991566000E38EFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC5016B1991566000E38EFE /* main.m */; };
+		DFC501701991566000E38EFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC5016F1991566000E38EFE /* AppDelegate.m */; };
+		DFC501731991566000E38EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC501711991566000E38EFE /* Main.storyboard */; };
+		DFC501761991566000E38EFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC501751991566000E38EFE /* ViewController.m */; };
+		DFC501781991566100E38EFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC501771991566100E38EFE /* Images.xcassets */; };
+		DFC5017F1991566100E38EFE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC5017E1991566100E38EFE /* XCTest.framework */; };
+		DFC501801991566100E38EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC5015F1991566000E38EFE /* Foundation.framework */; };
+		DFC501811991566100E38EFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC501631991566000E38EFE /* UIKit.framework */; };
+		DFC501891991566100E38EFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFC501871991566100E38EFE /* InfoPlist.strings */; };
+		DFC5018B1991566100E38EFE /* GetOnThatBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC5018A1991566100E38EFE /* GetOnThatBusTests.m */; };
+		DFC501951991568E00E38EFE /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC501941991568E00E38EFE /* CheckMate.framework */; };
+		DFC5019819916A9800E38EFE /* BusStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC5019719916A9800E38EFE /* BusStopViewController.m */; };
+		DFC5019B19916D3A00E38EFE /* busStopAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC5019A19916D3A00E38EFE /* busStopAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFC501821991566100E38EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFC501541991566000E38EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFC5015B1991566000E38EFE;
+			remoteInfo = GetOnThatBus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFC5015C1991566000E38EFE /* GetOnThatBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetOnThatBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC5015F1991566000E38EFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFC501611991566000E38EFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFC501631991566000E38EFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFC501671991566000E38EFE /* GetOnThatBus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetOnThatBus-Info.plist"; sourceTree = "<group>"; };
+		DFC501691991566000E38EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFC5016B1991566000E38EFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFC5016D1991566000E38EFE /* GetOnThatBus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GetOnThatBus-Prefix.pch"; sourceTree = "<group>"; };
+		DFC5016E1991566000E38EFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFC5016F1991566000E38EFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFC501721991566000E38EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFC501741991566000E38EFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFC501751991566000E38EFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFC501771991566100E38EFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFC5017D1991566100E38EFE /* GetOnThatBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOnThatBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC5017E1991566100E38EFE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DFC501861991566100E38EFE /* GetOnThatBusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetOnThatBusTests-Info.plist"; sourceTree = "<group>"; };
+		DFC501881991566100E38EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFC5018A1991566100E38EFE /* GetOnThatBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnThatBusTests.m; sourceTree = "<group>"; };
+		DFC501941991568E00E38EFE /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../../MobileMakers/CheckMate.framework; sourceTree = "<group>"; };
+		DFC5019619916A9800E38EFE /* BusStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopViewController.h; sourceTree = "<group>"; };
+		DFC5019719916A9800E38EFE /* BusStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopViewController.m; sourceTree = "<group>"; };
+		DFC5019919916D3A00E38EFE /* busStopAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = busStopAnnotation.h; sourceTree = "<group>"; };
+		DFC5019A19916D3A00E38EFE /* busStopAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = busStopAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFC501591991566000E38EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC501951991568E00E38EFE /* CheckMate.framework in Frameworks */,
+				DFC501621991566000E38EFE /* CoreGraphics.framework in Frameworks */,
+				DFC501641991566000E38EFE /* UIKit.framework in Frameworks */,
+				DFC501601991566000E38EFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC5017A1991566100E38EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC5017F1991566100E38EFE /* XCTest.framework in Frameworks */,
+				DFC501811991566100E38EFE /* UIKit.framework in Frameworks */,
+				DFC501801991566100E38EFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFC501531991566000E38EFE = {
+			isa = PBXGroup;
+			children = (
+				DFC501651991566000E38EFE /* GetOnThatBus */,
+				DFC501841991566100E38EFE /* GetOnThatBusTests */,
+				DFC5015E1991566000E38EFE /* Frameworks */,
+				DFC5015D1991566000E38EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFC5015D1991566000E38EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFC5015C1991566000E38EFE /* GetOnThatBus.app */,
+				DFC5017D1991566100E38EFE /* GetOnThatBusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFC5015E1991566000E38EFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFC501941991568E00E38EFE /* CheckMate.framework */,
+				DFC5015F1991566000E38EFE /* Foundation.framework */,
+				DFC501611991566000E38EFE /* CoreGraphics.framework */,
+				DFC501631991566000E38EFE /* UIKit.framework */,
+				DFC5017E1991566100E38EFE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFC501651991566000E38EFE /* GetOnThatBus */ = {
+			isa = PBXGroup;
+			children = (
+				DFC5016E1991566000E38EFE /* AppDelegate.h */,
+				DFC5016F1991566000E38EFE /* AppDelegate.m */,
+				DFC501711991566000E38EFE /* Main.storyboard */,
+				DFC5019619916A9800E38EFE /* BusStopViewController.h */,
+				DFC5019719916A9800E38EFE /* BusStopViewController.m */,
+				DFC501741991566000E38EFE /* ViewController.h */,
+				DFC501751991566000E38EFE /* ViewController.m */,
+				DFC5019919916D3A00E38EFE /* busStopAnnotation.h */,
+				DFC5019A19916D3A00E38EFE /* busStopAnnotation.m */,
+				DFC501771991566100E38EFE /* Images.xcassets */,
+				DFC501661991566000E38EFE /* Supporting Files */,
+			);
+			path = GetOnThatBus;
+			sourceTree = "<group>";
+		};
+		DFC501661991566000E38EFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFC501671991566000E38EFE /* GetOnThatBus-Info.plist */,
+				DFC501681991566000E38EFE /* InfoPlist.strings */,
+				DFC5016B1991566000E38EFE /* main.m */,
+				DFC5016D1991566000E38EFE /* GetOnThatBus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFC501841991566100E38EFE /* GetOnThatBusTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFC5018A1991566100E38EFE /* GetOnThatBusTests.m */,
+				DFC501851991566100E38EFE /* Supporting Files */,
+			);
+			path = GetOnThatBusTests;
+			sourceTree = "<group>";
+		};
+		DFC501851991566100E38EFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFC501861991566100E38EFE /* GetOnThatBusTests-Info.plist */,
+				DFC501871991566100E38EFE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFC5015B1991566000E38EFE /* GetOnThatBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC5018E1991566100E38EFE /* Build configuration list for PBXNativeTarget "GetOnThatBus" */;
+			buildPhases = (
+				DFC501581991566000E38EFE /* Sources */,
+				DFC501591991566000E38EFE /* Frameworks */,
+				DFC5015A1991566000E38EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetOnThatBus;
+			productName = GetOnThatBus;
+			productReference = DFC5015C1991566000E38EFE /* GetOnThatBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFC5017C1991566100E38EFE /* GetOnThatBusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC501911991566100E38EFE /* Build configuration list for PBXNativeTarget "GetOnThatBusTests" */;
+			buildPhases = (
+				DFC501791991566100E38EFE /* Sources */,
+				DFC5017A1991566100E38EFE /* Frameworks */,
+				DFC5017B1991566100E38EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFC501831991566100E38EFE /* PBXTargetDependency */,
+			);
+			name = GetOnThatBusTests;
+			productName = GetOnThatBusTests;
+			productReference = DFC5017D1991566100E38EFE /* GetOnThatBusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFC501541991566000E38EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cmeats;
+				TargetAttributes = {
+					DFC5017C1991566100E38EFE = {
+						TestTargetID = DFC5015B1991566000E38EFE;
+					};
+				};
+			};
+			buildConfigurationList = DFC501571991566000E38EFE /* Build configuration list for PBXProject "GetOnThatBus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFC501531991566000E38EFE;
+			productRefGroup = DFC5015D1991566000E38EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFC5015B1991566000E38EFE /* GetOnThatBus */,
+				DFC5017C1991566100E38EFE /* GetOnThatBusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFC5015A1991566000E38EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC501781991566100E38EFE /* Images.xcassets in Resources */,
+				DFC5016A1991566000E38EFE /* InfoPlist.strings in Resources */,
+				DFC501731991566000E38EFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC5017B1991566100E38EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC501891991566100E38EFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFC501581991566000E38EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC501761991566000E38EFE /* ViewController.m in Sources */,
+				DFC5019B19916D3A00E38EFE /* busStopAnnotation.m in Sources */,
+				DFC5019819916A9800E38EFE /* BusStopViewController.m in Sources */,
+				DFC501701991566000E38EFE /* AppDelegate.m in Sources */,
+				DFC5016C1991566000E38EFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC501791991566100E38EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC5018B1991566100E38EFE /* GetOnThatBusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFC501831991566100E38EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFC5015B1991566000E38EFE /* GetOnThatBus */;
+			targetProxy = DFC501821991566100E38EFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFC501681991566000E38EFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFC501691991566000E38EFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFC501711991566000E38EFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFC501721991566000E38EFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFC501871991566100E38EFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFC501881991566100E38EFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFC5018C1991566100E38EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFC5018D1991566100E38EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFC5018F1991566100E38EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/etccl/MobileMakers,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetOnThatBus/GetOnThatBus-Prefix.pch";
+				INFOPLIST_FILE = "GetOnThatBus/GetOnThatBus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFC501901991566100E38EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/etccl/MobileMakers,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetOnThatBus/GetOnThatBus-Prefix.pch";
+				INFOPLIST_FILE = "GetOnThatBus/GetOnThatBus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DFC501921991566100E38EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GetOnThatBus.app/GetOnThatBus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetOnThatBus/GetOnThatBus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GetOnThatBusTests/GetOnThatBusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DFC501931991566100E38EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GetOnThatBus.app/GetOnThatBus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetOnThatBus/GetOnThatBus-Prefix.pch";
+				INFOPLIST_FILE = "GetOnThatBusTests/GetOnThatBusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFC501571991566000E38EFE /* Build configuration list for PBXProject "GetOnThatBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC5018C1991566100E38EFE /* Debug */,
+				DFC5018D1991566100E38EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFC5018E1991566100E38EFE /* Build configuration list for PBXNativeTarget "GetOnThatBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC5018F1991566100E38EFE /* Debug */,
+				DFC501901991566100E38EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFC501911991566100E38EFE /* Build configuration list for PBXNativeTarget "GetOnThatBusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC501921991566100E38EFE /* Debug */,
+				DFC501931991566100E38EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFC501541991566000E38EFE /* Project object */;
+}
